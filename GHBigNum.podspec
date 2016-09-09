@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "Gabriel Handford" => "gabrielh@gmail.com" }
   s.source       = { :git => "https://github.com/gabriel/GHBigNum.git", :tag => s.version.to_s }
 
-  s.dependency "OpenSSL-Static"
+  s.dependency "OpenSSL"
 
   s.source_files = "GHBigNum/**/*.{c,h,m}"
   s.requires_arc = true
